@@ -1,0 +1,6 @@
+config.json
+*.png
+*.jpg
+*.jpeg
+*.screenshots
+*.txt
