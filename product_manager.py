@@ -16,3 +16,6 @@ class ProductManager:
         for product in self.products:
             total += product.price * product.quantity
         return f"Valoarea totala este de: {total}"
+
+    def remove_product(self, name):
+        self.products = [i for i in self.products if i.name != name]
